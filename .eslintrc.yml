@@ -2,7 +2,8 @@ env:
   browser: true
   commonjs: true
   es2021: true
-extends: standard
+  jest: true
+extends: airbnb-base
 parserOptions:
   ecmaVersion: latest
 rules: {}
